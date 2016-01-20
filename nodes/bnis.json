@@ -1,0 +1,6 @@
+{
+  "name": "bnis",
+  "run_list": [
+    "recipe[bnis]"
+  ]
+}
