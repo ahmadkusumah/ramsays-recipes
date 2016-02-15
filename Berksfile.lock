@@ -3,6 +3,7 @@ DEPENDENCIES
   jetty (~> 0.4.0)
   maven (~> 2.1.0)
   nginx
+  postgresql (~> 4.0.0)
 
 GRAPH
   7-zip (1.0.2)
@@ -14,6 +15,7 @@ GRAPH
   bluepill (2.4.1)
     rsyslog (~> 2.0)
   build-essential (2.2.4)
+  chef-sugar (3.3.0)
   chef_handler (1.2.0)
   java (1.38.0)
     apt (>= 0.0.0)
@@ -31,7 +33,13 @@ GRAPH
     runit (~> 1.2)
     yum-epel (~> 0.3)
   ohai (2.0.4)
+  openssl (4.4.0)
+    chef-sugar (>= 3.1.1)
   packagecloud (0.1.1)
+  postgresql (4.0.0)
+    apt (>= 1.9.0)
+    build-essential (>= 0.0.0)
+    openssl (~> 4.0)
   rsyslog (2.2.0)
   runit (1.7.6)
     packagecloud (>= 0.0.0)
